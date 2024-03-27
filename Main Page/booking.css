@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+}
+div.hotel{
+width: 100%;
+min-height:300px ;
+background-color: black;
+}
+div.customerInfo{
+    background-color:rgb(232, 232, 253) ;
+    margin-left: 5%;
+    width: 50%;
+position: relative;
+}
+
+.customerInfo input{
+    position: absolute;
+    width: 100%;
+    border-radius: 10%;
+    height: 40px;
+    left: 0px;
+}
+input#bookforother{
+    width: 20px;
+}
+input.customerInfo label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label.bookforother{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: white;
+}
+div.guest{
+    margin-top: 50px;
+}
+input.fullname{
+    margin-top: 20px;
+}
+
+label.country{
+    margin-top: 50px;
+}
+
+span{
+    color: red;
+}
+div.guest{
+    background-color: azure;
+    transition: display 10s ;
+    display: block;
+}
